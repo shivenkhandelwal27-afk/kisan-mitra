@@ -162,6 +162,15 @@ python -m eval.agreement data/gold/annotatorA.jsonl data/gold/annotatorB.jsonl
 
 **STILL OPEN — small test set.** 20 gold rules. See the caveat above.
 
+**PARTIALLY ADDRESSED — source verification.** A different validity check was
+run in place of the missing kappa: 12 schemes were re-fetched live and all 68
+of their stored rules checked for textual support in the current government
+page. Zero pages had drifted; no fabricated rule was found. See
+`reports/source_verification.md`, including why the headline 100% is partly
+circular and must be reported as manual verification rather than an automated
+metric. This tests correctness against ground truth; it does NOT substitute
+for kappa, which tests interpretation consistency.
+
 ## Reproducing
 
 ```bash

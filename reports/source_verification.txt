@@ -1,0 +1,22 @@
+  Mukhya Mantri Krishi Sa Sajuli Yozana - Assa   text=same     evidence 9/9
+  Skilled Youth Startup Scheme                   text=same     evidence 8/8
+  Direct Lending Scheme                          text=same     evidence 7/7
+  Udyogini Scheme                                text=same     evidence 7/7
+  Shrama Shakthi Scheme                          text=same     evidence 6/6
+  Indira Gandhi National Old Age Pension Schem   text=same     evidence 5/5
+  Sikkim Grant Of Award To Transgender           text=same     evidence 5/5
+  Mukhyamantri Mahila Utkarsh Yojana             text=same     evidence 5/5
+  Krishak Bakri Palan Yojna                      text=same     evidence 4/4
+  Subsidy Scheme On Establishment Of - 25 Kada   text=same     evidence 4/4
+  LIDCOM Gattai Stall Scheme                     text=same     evidence 4/4
+  Interest Subvention Scheme For Housing Loan    text=same     evidence 4/4
+
+==================================================================
+  schemes re-fetched      : 12   (failed: 0)
+  pages changed since scrape: 0/12
+  rules grounded in source : 68/68 (100.0%)
+==================================================================
+
+NOTE: 'grounded' means the value appears in the source text. It does
+NOT mean the rule is correctly interpreted -- '18' supports both
+`age gte 18` and `age lte 18` equally.

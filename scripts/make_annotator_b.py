@@ -13,14 +13,19 @@ import json
 
 from src.config import GOLD
 
-N_OVERLAP = 50
+# 20, not 50. Kappa needs enough decisions to be stable, not a large sample --
+# these 20 sections carry ~60 rule-level decisions between them, which is
+# adequate for a project-scale reliability estimate. A wide confidence
+# interval that is honestly reported beats a precise number nobody produced.
+N_OVERLAP = 20
 
 
 def main() -> None:
     rows = [json.loads(l) for l in open(GOLD / "candidates.jsonl", encoding="utf-8")]
     verified = [r for r in rows if r.get("verified")]
     # Take the highest-priority sections: the ones carrying actual criteria.
-    overlap = sorted(verified, key=lambda r: -r["priority"])[:N_OVERLAP]
+    with_rules = [r for r in verified if r.get("rules")]
+    overlap = sorted(with_rules, key=lambda r: -len(r["rules"]))[:N_OVERLAP]
 
     out = GOLD / "annotator_b.jsonl"
     with out.open("w", encoding="utf-8") as f:
