@@ -71,6 +71,42 @@ c3.caption(f"Section {i + 1}/{n} · {row.get('section')} · {row.get('doc', '')[
 st.subheader(row.get("doc", "")[:80])
 st.info(row["text"])
 
+# Just-in-time guidance. Nobody reads a 7000-word guideline document before
+# starting, and the rules only make sense against a concrete example anyway.
+# Each hint fires only when the CURRENT section contains the pattern it covers.
+import re as _re
+
+HINTS: list[tuple[str, str]] = [
+    (r"prefer|priorit|encourag",
+     "**Preference wording spotted.** This is *not* a requirement — add the "
+     "rule but tick **Preference only**. It affects ranking, never eligibility."),
+    (r"\bnot\b|exclud|shall not|should not|ineligib|except",
+     "**Negation spotted.** Record the condition the farmer must SATISFY and "
+     "tick **Negated**. \"must not be a govt employee\" → "
+     "`is_govt_employee` `eq` `False` + Negated. Never use `neq`."),
+    (r"\d+\s*(?:to|-|and)\s*\d+\s*year|between\s+\d+",
+     "**Range spotted.** That is TWO rules, not one: `gte` lower bound and "
+     "`lte` upper bound."),
+    (r"\bacres?\b|\bbigha|\bhectare",
+     "**Land units spotted.** Type the unit exactly as the text says it. "
+     "Do NOT convert acres to hectares — the code does that."),
+    (r"all categories|all farmers|including|irrespective",
+     "**Inclusive phrasing spotted.** \"all categories are eligible\" states "
+     "NO restriction, so it produces no rule. Only add a rule if it actually "
+     "narrows who qualifies."),
+    (r"lakh|crore|₹\s*[\d,]+",
+     "**Money spotted.** Convert to plain rupees: ₹1.5 lakh → `150000`. "
+     "Unit is `INR`."),
+]
+
+fired = [msg for pat, msg in HINTS if _re.search(pat, row["text"], _re.I)]
+if row.get("section") == "Benefits":
+    fired.insert(0, "**This is a Benefits section.** These usually describe "
+                    "what you RECEIVE, not who qualifies → most should be "
+                    "**No rules**. Those labels are valuable, not skipped work.")
+for msg in fired[:3]:
+    st.warning(msg, icon="💡")
+
 st.divider()
 
 # ------------------------------------------------------- existing rules --
