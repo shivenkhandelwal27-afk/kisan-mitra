@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Scraper caches: 36MB of fetched HTML/PDFs, all reproducible by re-running
+# the scrapers. Never commit.
+data/raw/_cache/
+data/raw/_llm/
+data/raw/_myscheme/
+
+# Local artefacts
+mlruns/
+reports/scrape_log.txt
+reports/*_log.txt
+reports/sections_dump.txt
+reports/gold_backup.jsonl
+*.jsonl.tmp
+.claude/launch.json.bak

@@ -1,0 +1,28 @@
+provider: ollama model: qwen2.5:3b
+sections: 37 | avg chars: 691
+
+   0s 0 rules | Skilled Youth Startup Scheme
+    Applicant must possess a Certificate of Identification (COI) or Sikkim Subject Certificate / Residential Certi
+
+   0s 3 rules | Krishak Bakri Palan Yojna
+    Farmers belonging to all categories like general/SC/ST/BPL/Women and Landless persons of Himachal Pradesh are 
+     -> social category is one of ['general', 'SC', 'ST', 'BPL', 'Women', 'Landless']
+     -> is govt employee is False [NEG]
+     -> annual income is at most 20000 INR
+
+  61s 4 rules | Mukhya Mantri Krishi Sa Sajuli Yozana - Assam
+    The beneficiary should be a resident farmer of Assam. Only small and marginal farmers are eligible for the ben
+     -> farmer class is one of ['small', 'marginal']
+     -> age is at least 21 years
+     -> has land records is True
+     -> land ha is at least 1 acre
+
+  34s 2 rules | Uttam Pashu Puraskar Yojana
+    1. The beneficiary should be a permanent resident of Himachal Pradesh. 2. The beneficiary/livestock owner of C
+     -> state is HIMACHAL_PRADESH
+     -> livestock is one of ['Cattle', 'Buffaloes']
+
+   6s 0 rules | Community Canning & Training On Fruit Preserva
+    To impart training on home scale preservation of fruits and vegetables for 1 days, 3 days and 6 days to the la
+
+TOTAL 9 rules from 5 sections (1.8/section)

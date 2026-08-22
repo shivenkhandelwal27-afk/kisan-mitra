@@ -1,0 +1,1638 @@
+{
+ "generated_at": "2026-08-22",
+ "rule_source": "gold",
+ "schemes": [
+  {
+   "id": "skilled-youth-startup-scheme",
+   "name": {
+    "en": "Skilled Youth Startup Scheme"
+   },
+   "category": "training",
+   "level": "state",
+   "states": [
+    "SIKKIM"
+   ],
+   "benefit_text": "Financial support through bank loans with back-ended subsidy of 35% or 50%.\nMaximum admissible project cost varies by category, up to ₹20 lakhs.\nMandatory Entrepreneur Development Training (3 days) provided before loan disbursement.\nPreference for Persons with Disabilities (PwDs) with 50% subsidy eligibility.\nSupport for a wide range of sectors including:\nDairy, poultry, piggery, food processing.\nWood and bamboo crafts.\nHomestays and tourism.\nIT services, tailoring, coaching centers.\nAutomobile workshops and diagnostic centers.\n﻿\n\nActivities covered and maximum project cost:\nS. No. Category Ma",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "SIKKIM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "employment_status",
+     "op": "eq",
+     "value": "unemployed",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "education_level",
+     "op": "eq",
+     "value": "class_5",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 45,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "one_per_family",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 800000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_loan_defaulter",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/syss",
+   "source_url": "https://www.myscheme.gov.in/schemes/syss",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Applicant must possess a Certificate of Identification (COI) or Sikkim Subject Certificate / Residential Certificate (for urban areas).\nApplicant must be unemployed and have completed at least Class V from a recognized school.\nFor technical, manufacturing, or service-based projects, the applicant should have a valid certificate from a recognized technical institute.\nApplicant must be between 18 to 45 years of age at the time of application.\nOnly one member per family is eligible to apply under the scheme.\nApplicant's family income must not exceed ₹8 lakhs per annum.\nFor married applicants: family includes self, spouse, and children.\nFor unmarried applicants: family includes parents and unmarried siblings.\nIf the applicant is a child of a Government employee, only children of Group 'C' or 'D' employees are eligible.\nApplicant must contribute 5-15% of the project cost, as per bank norms.\nApplicant must not be a defaulter with any nationalized bank, financial institution, or co-operative bank.\nApplicant must not have availed subsidy under CMSS or PMEGP schemes earlier.\nApplicant must possess a valid trade license for the proposed business or project.\nApplicants under the Persons with Disabilities (PWD) category will be given priority and are eligible for a 50% loan subsidy.",
+   "raw_benefit_text": "Financial support through bank loans with back-ended subsidy of 35% or 50%.\nMaximum admissible project cost varies by category, up to ₹20 lakhs.\nMandatory Entrepreneur Development Training (3 days) provided before loan disbursement.\nPreference for Persons with Disabilities (PwDs) with 50% subsidy eligibility.\nSupport for a wide range of sectors including:\nDairy, poultry, piggery, food processing.\nWood and bamboo crafts.\nHomestays and tourism.\nIT services, tailoring, coaching centers.\nAutomobile workshops and diagnostic centers.\n﻿\n\nActivities covered and maximum project cost:\nS. No. Category Ma",
+   "gold_verified": true
+  },
+  {
+   "id": "krishak-bakri-palan-yojna",
+   "name": {
+    "en": "Krishak Bakri Palan Yojna"
+   },
+   "category": "allied_activity",
+   "level": "state",
+   "states": [
+    "HIMACHAL_PRADESH"
+   ],
+   "benefit_text": "Financial Assistance: Farmers receive goat units on a 60% subsidy, significantly reducing the initial investment required for goat farming.\nImproved Livelihoods: The scheme helps improve the livelihoods of small farmers by providing a steady source of income through goat farming.\nIncreased Meat Production: By distributing high-quality goat breeds, the scheme boosts meat production in the state, contributing to the local economy.\nSustainable Farming Practices: The scheme promotes sustainable farming practices, ensuring long-term economic benefits for farmers.\nEmpowerment of Marginalized Communi",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "HIMACHAL_PRADESH",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_govt_employee",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 200000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": false
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/kbpyy",
+   "source_url": "https://www.myscheme.gov.in/schemes/kbpyy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Farmers belonging to all categories like general/SC/ST/BPL/Women and Landless persons of Himachal Pradesh are eligible. \nTraining/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\nTraining/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\nThe preference will be given to:\nUnemployed SC, ST, Women and General category persons. At least 30 percent beneficiaries should be women.\nFamilies where no member is in Government job.\nPersons with annual income not exceeding 2 lakh per annum.\nPersons/farmers who have built their own goat sheds or built under MGNREGA.",
+   "raw_benefit_text": "Financial Assistance: Farmers receive goat units on a 60% subsidy, significantly reducing the initial investment required for goat farming.\nImproved Livelihoods: The scheme helps improve the livelihoods of small farmers by providing a steady source of income through goat farming.\nIncreased Meat Production: By distributing high-quality goat breeds, the scheme boosts meat production in the state, contributing to the local economy.\nSustainable Farming Practices: The scheme promotes sustainable farming practices, ensuring long-term economic benefits for farmers.\nEmpowerment of Marginalized Communi",
+   "gold_verified": true
+  },
+  {
+   "id": "mukhya-mantri-krishi-sa-sajuli-yozana-assam",
+   "name": {
+    "en": "Mukhya Mantri Krishi Sa Sajuli Yozana - Assam"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "ASSAM"
+   ],
+   "benefit_text": "Through this scheme farm mechanization for the cultivation of different crops will be promoted in order to increase the production and productivity of different crops.\nWith the implementation of this scheme income of farmers will increase. Other than that this scheme will also save the labour and time of the farmers.\nThrough this scheme financial assistance of ₹ 5000 will be provided to every farmer to procure farm tools and the assistance will be provided through Direct Benefit Transfer.\nThis scheme promotes scientific cultivation practices by encouraging farmers in procuring scientific farm ",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "ASSAM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "farmer_class",
+     "op": "in",
+     "value": [
+      "small",
+      "marginal"
+     ],
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gt",
+     "value": 21,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "years_farming",
+     "op": "gte",
+     "value": 3,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "has_kcc",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "has_bank_account",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "one_per_family",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "land_ownership",
+     "op": "in",
+     "value": [
+      "tenant",
+      "sharecropper"
+     ],
+     "negated": false,
+     "mandatory": false
+    },
+    {
+     "field": "land_ha",
+     "op": "gte",
+     "value": 1,
+     "unit": "acre",
+     "negated": false,
+     "mandatory": false
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/mmkssy-assam",
+   "source_url": "https://www.myscheme.gov.in/schemes/mmkssy-assam",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The beneficiary should be a resident farmer of Assam.\nOnly small and marginal farmers are eligible for the benefit under the scheme.\nThe beneficiary should be more than 21 years old.\nHe or she should be involved in cultivation for at least three consecutive years.\nAll Kisan Credit Card (KCC) holders are eligible to apply under the scheme.\nThe applicant Beneficiary should have a live bank account.\nOnly one farmer per family shall be eligible for the benefit under the scheme.\nTenant farmers or sharecroppers with a minimum cultivation area of 1 Acre / 3 Bighas may also be considered under the scheme.\n﻿",
+   "raw_benefit_text": "Through this scheme farm mechanization for the cultivation of different crops will be promoted in order to increase the production and productivity of different crops.\nWith the implementation of this scheme income of farmers will increase. Other than that this scheme will also save the labour and time of the farmers.\nThrough this scheme financial assistance of ₹ 5000 will be provided to every farmer to procure farm tools and the assistance will be provided through Direct Benefit Transfer.\nThis scheme promotes scientific cultivation practices by encouraging farmers in procuring scientific farm ",
+   "gold_verified": true
+  },
+  {
+   "id": "uttam-pashu-puraskar-yojana",
+   "name": {
+    "en": "Uttam Pashu Puraskar Yojana"
+   },
+   "category": "allied_activity",
+   "level": "state",
+   "states": [
+    "HIMACHAL_PRADESH"
+   ],
+   "benefit_text": "Livestock owners of Cattle/Buffaloes giving 15 liters or more milk per day will be awarded a cash prize of ₹1000/- per Cow/Buffalo.\nThe prize will be admissible to a maximum of two animals per farmer.\nPrizes will be transferred to the bank account of the selected owners.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "HIMACHAL_PRADESH",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "livestock",
+     "op": "in",
+     "value": [
+      "cattle",
+      "buffalo"
+     ],
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/uppy",
+   "source_url": "https://www.myscheme.gov.in/schemes/uppy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "1. The beneficiary should be a permanent resident of Himachal Pradesh.\n2. The beneficiary/livestock owner of Cattle/Buffaloes giving 15 liters or more milk per day is eligible to apply under the scheme.\n﻿",
+   "raw_benefit_text": "Livestock owners of Cattle/Buffaloes giving 15 liters or more milk per day will be awarded a cash prize of ₹1000/- per Cow/Buffalo.\nThe prize will be admissible to a maximum of two animals per farmer.\nPrizes will be transferred to the bank account of the selected owners.",
+   "gold_verified": true
+  },
+  {
+   "id": "community-canning-training-on-fruit-preservation",
+   "name": {
+    "en": "Community Canning & Training On Fruit Preservation"
+   },
+   "category": "training",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "To forward facilities to the public, in particular to ladies and housewives, throughout the state, for preservation of fruits and vegetables.\nHome scale preservation and canning of seasonal fruits and vegetables under expert technical supervision and guidance for consumption in lean periods.\nTo encourage the preparation of value added produce such as Jam, Jelly, Squash, Juice, Sauce, Chutney, Pickles etc. at nominal charges.\nTo impart training on home scale preservation of fruits and vegetables for 1 days, 3 days and 6 days to the ladies, housewives through various organization like Mahila sam",
+   "eligibility": [],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/cctofp",
+   "source_url": "https://www.myscheme.gov.in/schemes/cctofp",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "To impart training on home scale preservation of fruits and vegetables for 1 days, 3 days and 6 days to the ladies, housewives through various organization like Mahila samity, SHG, College girls etc. specially in rural areas (Dairly processing comes under 1 day training). \nTo train personals to start small scale cottage industries in fruits and vegetables for self employment. The duration of these training will be of 7 to 15 days. \nTo provide certificates to the trained personals so that they can start their own enterprise.",
+   "raw_benefit_text": "To forward facilities to the public, in particular to ladies and housewives, throughout the state, for preservation of fruits and vegetables.\nHome scale preservation and canning of seasonal fruits and vegetables under expert technical supervision and guidance for consumption in lean periods.\nTo encourage the preparation of value added produce such as Jam, Jelly, Squash, Juice, Sauce, Chutney, Pickles etc. at nominal charges.\nTo impart training on home scale preservation of fruits and vegetables for 1 days, 3 days and 6 days to the ladies, housewives through various organization like Mahila sam",
+   "gold_verified": true
+  },
+  {
+   "id": "subsidy-scheme-on-establishment-of-25-kadaknath-r-i-r-birds-",
+   "name": {
+    "en": "Subsidy Scheme On Establishment Of - 25 Kadaknath/R.I.R. Birds Unit To Scheduled Tribes"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "GUJARAT"
+   ],
+   "benefit_text": "1. The beneficiary will be given 25 R.I.R birds unit along with poultry feed.\n2. The Subsidy will be given 75% of the unit cost of the scheme (maximum ₹4500/- in the form of birds and poultry feed).\n3. Under the scheme, the birds will be given vaccination regularly.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "GUJARAT",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "social_category",
+     "op": "in",
+     "value": [
+      "ST"
+     ],
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": false
+    },
+    {
+     "field": "is_bpl",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": false
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/sse25krbust",
+   "source_url": "https://www.myscheme.gov.in/schemes/sse25krbust",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The benefits of this scheme will only be given to the adult of Scheduled Tribe people of the society of Gujarat State.\nThe beneficiary will have to provide income proof and a caste certificate along with application.\nFemales and beneficiaries below poverty line will be given priority.\nThe beneficiary should have taken poultry-keeping training.",
+   "raw_benefit_text": "1. The beneficiary will be given 25 R.I.R birds unit along with poultry feed.\n2. The Subsidy will be given 75% of the unit cost of the scheme (maximum ₹4500/- in the form of birds and poultry feed).\n3. Under the scheme, the birds will be given vaccination regularly.",
+   "gold_verified": true
+  },
+  {
+   "id": "madilu-kit",
+   "name": {
+    "en": "Madilu Kit"
+   },
+   "category": "subsidy_input",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "Empowerment of rural communities through skill development and entrepreneurship.\nCreation of sustainable livelihoods and reduction of poverty.\nEnhancement of social and economic well-being in rural areas.\nIncreased income-generating opportunities for participants.\nAccess to micro-financing options and market linkages.\nPromotion of gender equality and social inclusion.\nStrengthening of rural economies and local industries.",
+   "eligibility": [
+    {
+     "field": "residence_type",
+     "op": "eq",
+     "value": "rural",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/madilu",
+   "source_url": "https://www.myscheme.gov.in/schemes/madilu",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Individuals residing in rural areas are eligible to participate.\nParticipants should have a willingness to learn and engage in skill development activities.\nThere is no age restriction for participation in the program.\nBoth men and women are encouraged to apply.\nParticipants should demonstrate an interest in entrepreneurship and improving their livelihoods",
+   "raw_benefit_text": "Empowerment of rural communities through skill development and entrepreneurship.\nCreation of sustainable livelihoods and reduction of poverty.\nEnhancement of social and economic well-being in rural areas.\nIncreased income-generating opportunities for participants.\nAccess to micro-financing options and market linkages.\nPromotion of gender equality and social inclusion.\nStrengthening of rural economies and local industries.",
+   "gold_verified": true
+  },
+  {
+   "id": "scheme-for-subsidy-on-interest-for-establishment-of-1-to-20-",
+   "name": {
+    "en": "Scheme For Subsidy On Interest For Establishment Of 1 To 20 Milch Animal Farm"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "GUJARAT"
+   ],
+   "benefit_text": "The beneficiary can purchase 1 to 20 Milch animals (Any dairy animal cow & buffalo) at a subsidized rate as per their need and capacity to maintain.\nThe beneficiary can get an interest subsidy up to a maximum of 12% on the unit cost of the animal or the unit loan advanced by the bank for the purchase of the animal, whichever is lower, will be available for a period of five years.\nNote 01: The amount of interest subvention will be deposited in the beneficiary's loan account in the form of a Direct Benefit Transfer (DBT) in installments. There will be no cash assistance for any of the beneficiar",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "GUJARAT",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "one_per_family",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/ssieemaf",
+   "source_url": "https://www.myscheme.gov.in/schemes/ssieemaf",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a permanent resident of Gujarat State.\nOnly one member of the family should be the beneficiary of the scheme.\nThe benefit of this scheme will be available to all the farmers of Gujarat State.\nThe applicant will be eligible for assistance only if he has obtained a loan for setting up the unit in the current financial year 2023-24 through a nationalized bank or a financial institution approved by the Reserve Bank of India.\nNote 01: The land should be owned by a member of the family or a beneficiary of the scheme.\nNote 02: The grant made under this Act may not be used for any other purpose and shall be paid annually.\nNote 03: The scheme shall provide for the establishment of a unit of livestock (cows and buffaloes) by obtaining a certificate from the Animal Husbandry Authority.",
+   "raw_benefit_text": "The beneficiary can purchase 1 to 20 Milch animals (Any dairy animal cow & buffalo) at a subsidized rate as per their need and capacity to maintain.\nThe beneficiary can get an interest subsidy up to a maximum of 12% on the unit cost of the animal or the unit loan advanced by the bank for the purchase of the animal, whichever is lower, will be available for a period of five years.\nNote 01: The amount of interest subvention will be deposited in the beneficiary's loan account in the form of a Direct Benefit Transfer (DBT) in installments. There will be no cash assistance for any of the beneficiar",
+   "gold_verified": true
+  },
+  {
+   "id": "incentive-to-owners-of-artificial-insemination-born-female-c",
+   "name": {
+    "en": "Incentive To Owners Of Artificial Insemination Born Female Calf Through Pure Breeding In Indigenous Cow"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "GUJARAT"
+   ],
+   "benefit_text": "1. The incentive of ₹3,000/- will be given to owners of a female calf born through Artificial Insemination by pure breeding in indigenous cows.\n2. The incentive/assistance shall be given once per year for one calf per beneficiary.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "GUJARAT",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/ioaibfcpbic",
+   "source_url": "https://www.myscheme.gov.in/schemes/ioaibfcpbic",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a permanent resident of Gujarat State.\nThe applicant should be the owner of a female calf born through artificial insemination by pure breeding in indigenous cows.\nThe age of the calf should not be more than 11 months as of the date of the online application.\nThe benefit of this scheme is eligible once per year for a maximum of one calf per beneficiary.",
+   "raw_benefit_text": "1. The incentive of ₹3,000/- will be given to owners of a female calf born through Artificial Insemination by pure breeding in indigenous cows.\n2. The incentive/assistance shall be given once per year for one calf per beneficiary.",
+   "gold_verified": true
+  },
+  {
+   "id": "incentive-to-girls",
+   "name": {
+    "en": "Incentive To Girls"
+   },
+   "category": "training",
+   "level": "state",
+   "states": [
+    "RAJASTHAN"
+   ],
+   "benefit_text": "₹15,000/- per annum: To the girl students studying in senior secondary by taking agriculture subjects in 11th and 12th classes \n₹25,000/- per annum: To girl students studying in Agricultural graduate education like Horticulture, Dairy, Agricultural Engineering, Food Processing and Shri Karan Narendra Business Management College, Jobner in 4/5 years course\n₹25,000/- per annum: To the girl students studying in Post Graduate Agriculture (M.Sc. Agriculture) in the 2-year course.\n₹40,000/- per annum: To the girl students studying for a maximum of 3 years PhD.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "RAJASTHAN",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/itg",
+   "source_url": "https://www.myscheme.gov.in/schemes/itg",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The student should be a native of Rajasthan.\nSchools, Colleges, and Universities are recognized by the state and state government.\nGirl Students should not have failed in the last year. \nThe incentive amount is not payable to the girl students who leave school, college, or university in the middle of the class session.",
+   "raw_benefit_text": "₹15,000/- per annum: To the girl students studying in senior secondary by taking agriculture subjects in 11th and 12th classes \n₹25,000/- per annum: To girl students studying in Agricultural graduate education like Horticulture, Dairy, Agricultural Engineering, Food Processing and Shri Karan Narendra Business Management College, Jobner in 4/5 years course\n₹25,000/- per annum: To the girl students studying in Post Graduate Agriculture (M.Sc. Agriculture) in the 2-year course.\n₹40,000/- per annum: To the girl students studying for a maximum of 3 years PhD.",
+   "gold_verified": true
+  },
+  {
+   "id": "svamitva-yojana-survey-of-villages-and-mapping-with-improvis",
+   "name": {
+    "en": "SVAMITVA Yojana (Survey of Villages and Mapping with Improvised Technology in Village Areas)"
+   },
+   "category": "subsidy_input",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "Drone Digitally Maps All the Land Parcels of the Inhabited Area of the Village.\nCreation of Property Cards on the Exact Area of Each Property in the Village.\nProprietary Rights to the Village Household Owner.\nProperty as a Financial Asset for Taking Loans and Other Financial Benefits.\nReduce Property Disputes and Legal Cases.\nDetermination of Property Tax.\nCreation of Accurate Land Records for Rural Planning.\nBetter Gpdp - Leveraging Gis Database/ Maps Created for Better Planning and Execution of Plans.",
+   "eligibility": [
+    {
+     "field": "residence_type",
+     "op": "eq",
+     "value": "rural",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/pmsy",
+   "source_url": "https://www.myscheme.gov.in/schemes/pmsy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should have a property in rural inhabited (Abadi) area.",
+   "raw_benefit_text": "Drone Digitally Maps All the Land Parcels of the Inhabited Area of the Village.\nCreation of Property Cards on the Exact Area of Each Property in the Village.\nProprietary Rights to the Village Household Owner.\nProperty as a Financial Asset for Taking Loans and Other Financial Benefits.\nReduce Property Disputes and Legal Cases.\nDetermination of Property Tax.\nCreation of Accurate Land Records for Rural Planning.\nBetter Gpdp - Leveraging Gis Database/ Maps Created for Better Planning and Execution of Plans.",
+   "gold_verified": true
+  },
+  {
+   "id": "pradhan-mantri-gram-sadak-yojana",
+   "name": {
+    "en": "Pradhan Mantri Gram Sadak Yojana"
+   },
+   "category": "infrastructure",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "The benefits of the Pradhan Mantri Gram Sadak Yojana (PMGSY) are -\n1. All-weather connection to the hamlets that are least or not connected.\n2. Overall Development of the country allows for easy movement of goods and vehicles.\n3. There are better employment opportunities for those from villages thanks to road connections.",
+   "eligibility": [],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/pmgsy",
+   "source_url": "https://www.myscheme.gov.in/schemes/pmgsy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "1. A region must be a habitation. It cannot be a hamlet or revenue village to be eligible for the Pradhan Mantri Gram Sadak Yojana (PMGSY).\n﻿\n\n2. The Central Government describes habitation as a population cluster residing within an area that remains constant over time. Some of the local words used to describe a habitation are:\nMajras, Desam, Hamlets, Tolas, Dhanis\n﻿\n\n3. The hamlet must have a higher population as per the 2001 Census to be eligible for road connection. The eligible habitations have a population of above 500 persons in plain areas and around 250 persons and above in hilly areas.",
+   "raw_benefit_text": "The benefits of the Pradhan Mantri Gram Sadak Yojana (PMGSY) are -\n1. All-weather connection to the hamlets that are least or not connected.\n2. Overall Development of the country allows for easy movement of goods and vehicles.\n3. There are better employment opportunities for those from villages thanks to road connections.",
+   "gold_verified": true
+  },
+  {
+   "id": "stand-up-india",
+   "name": {
+    "en": "Stand-Up India"
+   },
+   "category": "credit_loan",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "Facilitation of composite loan (inclusive of term loan and working capital) between ₹10 Lakhs and ₹100 Lakhs. Rupay debit card to be issued for convenience of the borrower.\nThe web portal by SIDBI provides hand-holding support through a network of agencies engaged in training, skill development, mentoring, project report preparation, application filling, work shed / utility support services, subsidy schemes etc.",
+   "eligibility": [
+    {
+     "field": "social_category",
+     "op": "in",
+     "value": [
+      "SC",
+      "ST"
+     ],
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_loan_defaulter",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/sui",
+   "source_url": "https://www.myscheme.gov.in/schemes/sui",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Finance is provided for Greenfield Enterprises.\nIf the applicant is a male, he must be from SC / ST category.\nThe age of the applicant must be at least 18 years.\nThe applicant must not be in default to any bank/financial institution.",
+   "raw_benefit_text": "Facilitation of composite loan (inclusive of term loan and working capital) between ₹10 Lakhs and ₹100 Lakhs. Rupay debit card to be issued for convenience of the borrower.\nThe web portal by SIDBI provides hand-holding support through a network of agencies engaged in training, skill development, mentoring, project report preparation, application filling, work shed / utility support services, subsidy schemes etc.",
+   "gold_verified": true
+  },
+  {
+   "id": "pradhan-mantri-suraksha-bima-yojana",
+   "name": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana"
+   },
+   "category": "insurance",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "On Death- the Nominee shall get ₹2 Lakhs.\nTotal and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot- Subscriber shall get ₹2 Lakhs.\nTotal and irrecoverable loss of sight of one eye or loss of use of one hand or foot -subscriber shall get ₹1 Lakh.",
+   "eligibility": [
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 70,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "has_bank_account",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/pmsby",
+   "source_url": "https://www.myscheme.gov.in/schemes/pmsby",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Individual bank account holders of participating banks aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, will be enrolled into the scheme.",
+   "raw_benefit_text": "On Death- the Nominee shall get ₹2 Lakhs.\nTotal and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot- Subscriber shall get ₹2 Lakhs.\nTotal and irrecoverable loss of sight of one eye or loss of use of one hand or foot -subscriber shall get ₹1 Lakh.",
+   "gold_verified": true
+  },
+  {
+   "id": "aponar-apon-ghar",
+   "name": {
+    "en": "Aponar Apon Ghar"
+   },
+   "category": "infrastructure",
+   "level": "state",
+   "states": [
+    "ASSAM"
+   ],
+   "benefit_text": "Loan Amount (₹): 5,00,000 - 10,00,000\nSubsidy (₹): 1,00,000\n﻿\n\nLoan Amount (₹): 10,00,000 - 20,00,000\nSubsidy (₹): 1,50,000\n﻿\n\nLoan Amount (₹): 20,00,000 - 30,00,000\nSubsidy (₹): 2,00,000\n﻿\n\nLoan Amount (₹): 30,00,000 - 40,00,000\nSubsidy (₹): 2,50,000",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "ASSAM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 2000000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/aag",
+   "source_url": "https://www.myscheme.gov.in/schemes/aag",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicants must be permanent residents of Assam state.\nThe applicants must avail the housing loan from any Scheduled Commercial Bank, Regional Rural Banks, Assam Cooperative Apex bank within the state.\nThe total family income of the applicant (from all sources) must not exceed ₹ 20,00,000.\nThe housing loan must be of more than ₹ 5,00,000 and sanctioned by bank on or after 1st April 2019.\nThe loan accounts must not be under NPA (Non Performing Assets) status.\nThis must be the first home by the composite family.",
+   "raw_benefit_text": "Loan Amount (₹): 5,00,000 - 10,00,000\nSubsidy (₹): 1,00,000\n﻿\n\nLoan Amount (₹): 10,00,000 - 20,00,000\nSubsidy (₹): 1,50,000\n﻿\n\nLoan Amount (₹): 20,00,000 - 30,00,000\nSubsidy (₹): 2,00,000\n﻿\n\nLoan Amount (₹): 30,00,000 - 40,00,000\nSubsidy (₹): 2,50,000",
+   "gold_verified": true
+  },
+  {
+   "id": "indira-gandhi-national-old-age-pension-scheme-sikkim",
+   "name": {
+    "en": "Indira Gandhi National Old Age Pension Scheme - Sikkim"
+   },
+   "category": "pension_welfare",
+   "level": "state",
+   "states": [
+    "SIKKIM"
+   ],
+   "benefit_text": "A monthly pension of ₹ 1500/- to the old aged person between the age group of 60 years - 69 years.\nA monthly pension of ₹ 2000/- to the old aged person between the age group of 70 years + and above.\nA monthly pension of ₹ 2500/- to the old aged persons having attained the age of 80 years and above.\nThe beneficiary will get a pension as long as he/she is alive.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "SIKKIM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_bpl",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 60,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_pensioner",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    },
+    {
+     "field": "has_bank_account",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/ignoaps-sikkim",
+   "source_url": "https://www.myscheme.gov.in/schemes/ignoaps-sikkim",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a resident of the state of Sikkim.\nThe applicant should be from Below Poverty Line (BPL) family.\nThe applicant should have attained the age of 60 years and above.\nThe applicant should not have any source of income.\nThe applicant should not be a recipient of salary/pension/family pension from Central Government / other State Governments.\nThe applicant should have opened the Bank Account under \"Pradhan Mantri Jan Dhan Yojana\".\n﻿\n\nNote 01: In case both the husband & wife are old age persons and are eligible for Indira Gandhi National Old Age Pension Scheme (IGNOAPS), only one member of the family shall be awarded the pension. In case of death of the pensioner, such pension shall be transferred to his/her spouse, if alive on surrender of the passbook, provided he/she has attained the age of 60 (sixty) years of age or more.\n﻿\n\nNote 02: Each beneficiary of the Pensions should submit \"Life Certificate\" in the prescribed format in the month of November every year failing which it will be presumed that the beneficiary is either died or migrated outside the State of Sikkim and the payment of pension shall be stopped forthwith without further notice.\n﻿",
+   "raw_benefit_text": "A monthly pension of ₹ 1500/- to the old aged person between the age group of 60 years - 69 years.\nA monthly pension of ₹ 2000/- to the old aged person between the age group of 70 years + and above.\nA monthly pension of ₹ 2500/- to the old aged persons having attained the age of 80 years and above.\nThe beneficiary will get a pension as long as he/she is alive.",
+   "gold_verified": true
+  },
+  {
+   "id": "sikkim-grant-of-award-to-transgender",
+   "name": {
+    "en": "Sikkim Grant Of Award To Transgender"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "SIKKIM"
+   ],
+   "benefit_text": "A monthly amount of ₹ 12000/- to the transgender of the age group of 0-6 years.\n100% free education up to graduation level.\nA monthly amount of ₹ 500/- is to be given, if remained unemployed after possessing the required educational or technical qualification.\n﻿",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "SIKKIM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "other",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_bpl",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_pensioner",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    },
+    {
+     "field": "has_bank_account",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/sgatt",
+   "source_url": "https://www.myscheme.gov.in/schemes/sgatt",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a resident of the state of Sikkim.\nThe applicant should be transgender.\nThe applicant should be from Below Poverty Line (BPL) family.\nThe applicant should not be a recipient of salary/pension/family pension from the Central Government / other State Governments.\nThe applicant should have opened the Bank Account under \"Pradhan Mantri Jan Dhan Yojana\".\n﻿\n\nNote 01: The payment of a grant to the transgender shall cease from the date of the death of the beneficiary. The amount due up to the corresponding month of death shall be paid to the immediate members of the beneficiary and the passbook shall be surrendered to the Department.\n﻿\n\nNote 02: In case of permanent migration of the beneficiary outside Sikkim, the payment of the grant shall cease to be made from the date of her/his migration. In such event, the family/ Panchayat of the beneficiary shall surrender the passbook to the Department.",
+   "raw_benefit_text": "A monthly amount of ₹ 12000/- to the transgender of the age group of 0-6 years.\n100% free education up to graduation level.\nA monthly amount of ₹ 500/- is to be given, if remained unemployed after possessing the required educational or technical qualification.\n﻿",
+   "gold_verified": true
+  },
+  {
+   "id": "chief-minister-s-health-insurance-scheme-nagaland",
+   "name": {
+    "en": "Chief Minister’s Health Insurance Scheme - Nagaland"
+   },
+   "category": "insurance",
+   "level": "state",
+   "states": [
+    "NAGALAND"
+   ],
+   "benefit_text": "All beneficiaries of the scheme are entitled to free and cashless hospitalization care for various ailments including pre-existing conditions/diseases, which can be availed from any empanelled hospital across the country. The treatment will include both surgical and medical procedures and limited day-care packages. However, OPD services and standalone diagnostics investigations will not be covered.\nCMHIS (GEN) beneficiaries will be entitled to more than 1950 medical and surgical packages across 27 major clinical specialties as well as entitlement to General Ward, similar to AB PM-JAY.\nCMHIS (E",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "NAGALAND",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/cmhisn",
+   "source_url": "https://www.myscheme.gov.in/schemes/cmhisn",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The Chief Minister Health Insurance Scheme is available to all permanent and indigenous residents of Nagaland. They are divided into two categories: \n1. For CMHIS (EP):\nThe applicant should be a government employee, pensioner, or dependent family member.\nThe applicant should possess valid supporting documents such as the PIMS Code, PPO book, Aadhaar card, and certificates for dependents.\n2. For CMHIS (GC):\nThe applicant should be an Indigenous Inhabitant or Permanent Resident of Nagaland not covered under AB PM-JAY.\nThe applicant should possess an Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, along with an Aadhaar card and valid mobile number.",
+   "raw_benefit_text": "All beneficiaries of the scheme are entitled to free and cashless hospitalization care for various ailments including pre-existing conditions/diseases, which can be availed from any empanelled hospital across the country. The treatment will include both surgical and medical procedures and limited day-care packages. However, OPD services and standalone diagnostics investigations will not be covered.\nCMHIS (GEN) beneficiaries will be entitled to more than 1950 medical and surgical packages across 27 major clinical specialties as well as entitlement to General Ward, similar to AB PM-JAY.\nCMHIS (E",
+   "gold_verified": true
+  },
+  {
+   "id": "lidcom-gattai-stall-scheme",
+   "name": {
+    "en": "LIDCOM Gattai Stall Scheme"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "MAHARASHTRA"
+   ],
+   "benefit_text": "The scheme provides a 100% subsidy for the erection of a Tin Stall of Size 4' x 5' x 6.5' costing ₹16,367/- per stall and ₹500/- incidental charges.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "MAHARASHTRA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 50,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 100000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/lgss",
+   "source_url": "https://www.myscheme.gov.in/schemes/lgss",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a citizen of India.\nThe applicant should be a Roadside Cobbler identified by the Gram Panchayat.\nThe applicant should be a permanent resident of Maharashtra State.\nThe applicant should be in the 18 to 50 years age group.\nThe applicant should be from Charmakar Community only (Dhor, Chambhar, Holar, Mochi, etc.).\nThe annual income of the family of the applicant should be less than or equal to ₹1,00,000/-.\nThe applicant should have knowledge of the business for which he has applied for the loan.",
+   "raw_benefit_text": "The scheme provides a 100% subsidy for the erection of a Tin Stall of Size 4' x 5' x 6.5' costing ₹16,367/- per stall and ₹500/- incidental charges.",
+   "gold_verified": true
+  },
+  {
+   "id": "direct-lending-scheme",
+   "name": {
+    "en": "Direct Lending Scheme"
+   },
+   "category": "credit_loan",
+   "level": "state",
+   "states": [
+    "PUNJAB"
+   ],
+   "benefit_text": "Loan Amount: The loanees are eligible for a subsidy of special Central Assistance @ 50% of the loan amount or ₹ 10,000/- (whichever is less).\nSources of Funds: Share Capital Funds\nRepayment Period: The period varies according to the kind of project with monthly, bimonthly, quarterly, or half-yearly installments with a maximum period of repayment of 15 years for land purchase cases.\nRate of Interest: Up To 50,000/- @ 5% and above ₹ 50,000/- @8%.\n﻿\n\nNote: Penal Interest @ 5% is charged for delayed payment/ non-repayment/violation of terms and conditions of the loan.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "PUNJAB",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_bpl",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "social_category",
+     "op": "in",
+     "value": [
+      "SC"
+     ],
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 55,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 100000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_differently_abled",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": false
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/dls-punjab",
+   "source_url": "https://www.myscheme.gov.in/schemes/dls-punjab",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a citizen of India.\nThe applicant should be a domicile / permanent resident of the state of Punjab.\nThe applicant should be from Below Poverty Line (BPL).\nThe applicant should be from the Scheduled Caste category OR the applicant should be a Person with Disability (PwD)\nThe age of the applicant should be between 18 to 55 years.\n(At the time of considering the loan case of the applicant) The annual family income of the applicant (from all sources) should be less than or equal to ₹ 1,00,000/- (In case the applicant is unemployed, and intends to start his/her own business, his/her family income may not be taken into consideration).\nThe applicant should not already be availing the benefits of the scheme.",
+   "raw_benefit_text": "Loan Amount: The loanees are eligible for a subsidy of special Central Assistance @ 50% of the loan amount or ₹ 10,000/- (whichever is less).\nSources of Funds: Share Capital Funds\nRepayment Period: The period varies according to the kind of project with monthly, bimonthly, quarterly, or half-yearly installments with a maximum period of repayment of 15 years for land purchase cases.\nRate of Interest: Up To 50,000/- @ 5% and above ₹ 50,000/- @8%.\n﻿\n\nNote: Penal Interest @ 5% is charged for delayed payment/ non-repayment/violation of terms and conditions of the loan.",
+   "gold_verified": true
+  },
+  {
+   "id": "interest-subvention-scheme-for-housing-loan-for-regular-stat",
+   "name": {
+    "en": "Interest Subvention Scheme For Housing Loan For Regular State Government Employee Under APUN GHAR"
+   },
+   "category": "credit_loan",
+   "level": "state",
+   "states": [
+    "ASSAM"
+   ],
+   "benefit_text": "1) The State Government has decided to provide a subvention of interest @3.5 % and after applying this interest subvention, the employees would get housing loans upto ₹ 15.00 lakh@ 5.0% (for women) and @ 5.05 %(for men)\n﻿\n\n2) On the basis of the SBI Proposal, the state government has decided to provide a loan repayment schedule to the State Government employees with pensionable service beyond the age of retirement up to 70 yrs of age.\n﻿\n\n3) The SBI will take responsibility to deduct the housing loan beyond the age of retirement up to 70 years as such the pension accounts are with SBI. For the ",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "ASSAM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "employment_status",
+     "op": "eq",
+     "value": "govt_employee",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 21,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 70,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/apun-ghar",
+   "source_url": "https://www.myscheme.gov.in/schemes/apun-ghar",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Permanent Employees of State Government of Assam with at least 5 years residual service will be eligible for the scheme once in his/her service tenure.\nMinimum 21 years and at least 5 years residual service to be eligible for the loan and maximum of 70 years for employees with pensionable service and maximum of 60 year for non-Pensionable service \nThe benefits of interest subvention will be available to the eligible employees who apply for housing loan within 2 (two) years from the date of issuance of the Government Office Memorandum/Notification\nEmployees not having salary account with SBI or having salary account for less than 1 Year should submit a 'No Dues' certificate from his existing/previous Banker.\nHowever, an employee can avail more than ₹ 15 Lacs but the Assam Government Interest Subvention Scheme will be available on loan up to the prescribed limit under the scheme.\nClose relatives can avail the Loan jointly if all are government employees of Assam. In such cases Assam Government Interest Subvention scheme will be available on loan clubbing together the prescribed limit under the scheme.\nThose who already benefited under Apun Ghar scheme are not eligible.\nPurchase of an ancestral plot of land from any close relative like Parents/Spouse/Siblings/Children is not covered by the scheme under any circumstances.\n﻿\n\n﻿",
+   "raw_benefit_text": "1) The State Government has decided to provide a subvention of interest @3.5 % and after applying this interest subvention, the employees would get housing loans upto ₹ 15.00 lakh@ 5.0% (for women) and @ 5.05 %(for men)\n﻿\n\n2) On the basis of the SBI Proposal, the state government has decided to provide a loan repayment schedule to the State Government employees with pensionable service beyond the age of retirement up to 70 yrs of age.\n﻿\n\n3) The SBI will take responsibility to deduct the housing loan beyond the age of retirement up to 70 years as such the pension accounts are with SBI. For the ",
+   "gold_verified": true
+  },
+  {
+   "id": "rajiv-gandhi-swavlamban-rojgar-yojna",
+   "name": {
+    "en": "Rajiv Gandhi Swavlamban Rojgar Yojna"
+   },
+   "category": "credit_loan",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "The quantum of loan granted under this scheme, to proposed and functioning units, shall be up to ₹3,00,000/-.\nGovt. of Delhi would provide a subsidy @ 15% of the project cost subject to the ceiling of ₹7,500/- per entrepreneur. \nNote 01: The concerned entrepreneur shall make at least a 10% contribution of the amount demanded as a loan from the DKVIB.\nNote 02: In the case of weaker sections i.e. SC/ST/OBC/Ph. H./Women/Ex. Servicemen, only 5% contribution of an entrepreneur is required.\nNote 03: In case of more than one entrepreneur joining together and setting up a project under the partnership",
+   "eligibility": [
+    {
+     "field": "is_loan_defaulter",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/rgsry",
+   "source_url": "https://www.myscheme.gov.in/schemes/rgsry",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "1. Any one of the following can avail loan under the scheme:\nSchool/College dropouts\nIndividual entrepreneur\nTrade Professionals\nArtisan\nPassed out candidates from any technical/professional institute recognized by the Government and its authorized undertaking bodies, without further training. \nSmall-Scale Industrial units with a total investment in plant, machinery, and equipment, not exceeding the ceiling prescribed for small-scale units by the Central Government from time to time and must be located within the N. C. T. of Delhi, are also eligible for financial aid/ loan.\n2. The age of the applicant should be between 18 years to 50 years.",
+   "raw_benefit_text": "The quantum of loan granted under this scheme, to proposed and functioning units, shall be up to ₹3,00,000/-.\nGovt. of Delhi would provide a subsidy @ 15% of the project cost subject to the ceiling of ₹7,500/- per entrepreneur. \nNote 01: The concerned entrepreneur shall make at least a 10% contribution of the amount demanded as a loan from the DKVIB.\nNote 02: In the case of weaker sections i.e. SC/ST/OBC/Ph. H./Women/Ex. Servicemen, only 5% contribution of an entrepreneur is required.\nNote 03: In case of more than one entrepreneur joining together and setting up a project under the partnership",
+   "gold_verified": true
+  },
+  {
+   "id": "scheme-for-financial-assistance-for-veteran-artists",
+   "name": {
+    "en": "Scheme For Financial Assistance For Veteran Artists"
+   },
+   "category": "subsidy_input",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "Under the scheme, a total allowance of ₹6000/- per month will be given to an eligible beneficiary.\nIn case of the death of a beneficiary getting an artist pension, the financial assistance may be transferred, at the discretion of the Central Government, in the name of the spouse of the beneficiary till life.\nNote 01: The monthly allowance contributed by the State Government/UT Administration concerned shall be at least ₹500/- per month per beneficiary.\nNote 02: The monthly allowance contributed by the Central Government shall not exceed ₹5500/- per month per beneficiary.\nNote 03: Out of ₹6000/",
+   "eligibility": [
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 48000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/sfava",
+   "source_url": "https://www.myscheme.gov.in/schemes/sfava",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "To be eligible for assistance under the Scheme, a person's contribution to art and letters, etc. must be of significance.\nTraditional scholars who have made significant contributions in their fields would also be eligible notwithstanding the absence of any published works.\nThe personal income of the applicant (including the income of the spouse) must not exceed ₹4,000/- per month or an annual income of ₹48,000/-. [This excludes artiste pension assistance amount already getting by a beneficiary from the Government (i.e. concerned State Govt./UT Administration and/or Ministry of Culture)]\nThe applicant should not be less than 60 (sixty) years of age (This does not apply in the case of a spouse).\nThe applicant artiste is getting a pension of at least ₹500/- per month from the concerned State Government/UT Administration or is recommended by the Zonal Cultural Centres, Ministry of Culture, for the artists of their Members State where State Pension is not there.\nThe applicant artists should not be getting financial assistance under other Schemes of the Ministry viz. Repertory Grant etc.",
+   "raw_benefit_text": "Under the scheme, a total allowance of ₹6000/- per month will be given to an eligible beneficiary.\nIn case of the death of a beneficiary getting an artist pension, the financial assistance may be transferred, at the discretion of the Central Government, in the name of the spouse of the beneficiary till life.\nNote 01: The monthly allowance contributed by the State Government/UT Administration concerned shall be at least ₹500/- per month per beneficiary.\nNote 02: The monthly allowance contributed by the Central Government shall not exceed ₹5500/- per month per beneficiary.\nNote 03: Out of ₹6000/",
+   "gold_verified": true
+  },
+  {
+   "id": "financial-assistance-for-the-marriage-of-daughters-of-poor-w",
+   "name": {
+    "en": "Financial Assistance For The Marriage Of Daughters Of Poor Widows And Orphan Girls"
+   },
+   "category": "training",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "The quantum of Assistance is one-time ₹ 30,000/- up to two daughters only.",
+   "eligibility": [
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 100000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/famdpwog",
+   "source_url": "https://www.myscheme.gov.in/schemes/famdpwog",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Financial assistance can be granted for performing marriage up to two daughters only. \nResidence of a minimum of 5 years in Delhi before the date of application. \nThe income of the applicant should be less than ₹ 1,00,000/-per year from all sources (including rent, interest/dividends on savings & investments, earnings from the farm, property sale proceeds, etc.) of the applicant. \nApplicant should have an Aadhar number \nThe Applicant should have a single-operated Aadhaar-linked account with any bank in the NCT of Delhi only. \nThe applicant should not be in receipt of any assistance from the discretionary fund of the Lt. Governor or the Chief Minister of Delhi for the same purpose. \nThe girl whose marriage is to be solemnized should be major on the date of marriage i.e. above 18 years of age. \nThe application must be submitted within a period of sixty days, before or after the date of the marriage being solemnized.",
+   "raw_benefit_text": "The quantum of Assistance is one-time ₹ 30,000/- up to two daughters only.",
+   "gold_verified": true
+  },
+  {
+   "id": "udyogini-scheme",
+   "name": {
+    "en": "Udyogini Scheme"
+   },
+   "category": "credit_loan",
+   "level": "state",
+   "states": [
+    "KARNATAKA"
+   ],
+   "benefit_text": "For women belonging to the Scheduled caste and Scheduled tribe, the unit cost is a minimum ₹ 1,00,000 to a maximum of ₹ 3,00,000. The subsidy is 50% of the loan amount, income limit of the family should be below ₹ 2,00,000 per year.\nFor women belonging to the special category and general category maximum unit cost is ₹ 3,00,000. Subsidy for special category women and for general category women is 30% or a maximum of ₹ 90,000/-. With EDP training for selected beneficiaries.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "KARNATAKA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 150000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 55,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_loan_defaulter",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    },
+    {
+     "field": "is_differently_abled",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": false
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/us",
+   "source_url": "https://www.myscheme.gov.in/schemes/us",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a woman.\nThe family income of the applicant should be less than ₹ 1,50,000/- for women belonging to general and special categories. No limit on family income for widowed or disabled women.\nThe age of the applicant should be between 18 to 55 years for all categories.\nThe applicant should be a permanent resident of Karnataka.\nThe applicant should not have defaulted on any past loan with any financial institution.\n﻿\n\nReservation / Preference / Priority\nPreference must be given to the extremely poor, destitute, widow, and physically challenged. \nIn addition, preference may be given to candidates who have undergone prior skill development training or vocational training conducted by any KSWDC or any other department. \nAbout 10% of the allocated target has been earmarked to benefit applicants of members of World Bank-assisted Swashakthi or Stree Shakthi groups.",
+   "raw_benefit_text": "For women belonging to the Scheduled caste and Scheduled tribe, the unit cost is a minimum ₹ 1,00,000 to a maximum of ₹ 3,00,000. The subsidy is 50% of the loan amount, income limit of the family should be below ₹ 2,00,000 per year.\nFor women belonging to the special category and general category maximum unit cost is ₹ 3,00,000. Subsidy for special category women and for general category women is 30% or a maximum of ₹ 90,000/-. With EDP training for selected beneficiaries.",
+   "gold_verified": true
+  },
+  {
+   "id": "scholarship-for-cadets-of-sainik-school-imphal",
+   "name": {
+    "en": "Scholarship For Cadets Of Sainik School Imphal"
+   },
+   "category": "training",
+   "level": "state",
+   "states": [
+    "MIZORAM"
+   ],
+   "benefit_text": "Financial Assistance: The scholarship provides financial assistance to cadets who are facing financial constraints and are unable to bear the expenses of their education. It covers various expenses related to their education, such as tuition fees, boarding and lodging charges, uniforms, and other necessary expenses.\nEqual Opportunities: The scholarship provides equal opportunities to all cadets studying in Sainik School Imphal, irrespective of their financial background. It ensures that every cadet has access to quality education and can pursue their academic goals without any financial barrie",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "MIZORAM",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "education_level",
+     "op": "eq",
+     "value": "class_12",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/scossi",
+   "source_url": "https://www.myscheme.gov.in/schemes/scossi",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "Scholarship will be admissible to Mizo students permanently residing in the state of Mizoram studying at Sainik School, Imphal.\nStudent should not be covered under any other Scholarship scheme.\n Scholarship for studying in any class will be available for only one year and renewable as per Rules/Conditions.\nIf after the award of the scholarship the cadet is found medically unfit in any way which according to the appropriate medical authority, renders him unfit for his entry into the NDA, the scholarship awarded shall be discontinued from the date the cadet is declared unfit",
+   "raw_benefit_text": "Financial Assistance: The scholarship provides financial assistance to cadets who are facing financial constraints and are unable to bear the expenses of their education. It covers various expenses related to their education, such as tuition fees, boarding and lodging charges, uniforms, and other necessary expenses.\nEqual Opportunities: The scholarship provides equal opportunities to all cadets studying in Sainik School Imphal, irrespective of their financial background. It ensures that every cadet has access to quality education and can pursue their academic goals without any financial barrie",
+   "gold_verified": true
+  },
+  {
+   "id": "old-age-samman-allowance",
+   "name": {
+    "en": "Old Age Samman Allowance"
+   },
+   "category": "pension_welfare",
+   "level": "state",
+   "states": [
+    "HARYANA"
+   ],
+   "benefit_text": "Pension of ₹3,000/- per month.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "HARYANA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 60,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 300000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_pensioner",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/oasas",
+   "source_url": "https://www.myscheme.gov.in/schemes/oasas",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be 60 years or above in age.\nThe applicant should be domiciled in and a resident of Haryana. \nThe income of the applicant, from all sources, including that of their spouse, should not exceed ₹3,00,000/- per annum.",
+   "raw_benefit_text": "Pension of ₹3,000/- per month.",
+   "gold_verified": true
+  },
+  {
+   "id": "mukhyamantri-mahila-utkarsh-yojana",
+   "name": {
+    "en": "Mukhyamantri Mahila Utkarsh Yojana"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "GUJARAT"
+   ],
+   "benefit_text": "Interest-Free Loans: Women entrepreneurs can avail of interest-free loans of up to ₹1 lakh to start or expand their businesses. The loans are provided without any collateral security.\nSubsidy: The government also provides a subsidy of 6% per annum to women entrepreneurs who repay their loans on time.\nNo Processing Fee: The scheme does not charge any processing fee for the loan application.\nRepayment Period: The repayment period for the loan is up to 5 years, giving entrepreneurs sufficient time to repay the loan.\nSkill Development: The scheme provides training and skill development programs to",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "GUJARAT",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "education_level",
+     "op": "eq",
+     "value": "class_8",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_govt_employee",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/mmuy",
+   "source_url": "https://www.myscheme.gov.in/schemes/mmuy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a woman who is a permanent resident of Gujarat.\nThe applicant should be 18 years of age or above.\nThe applicant should have passed at least the 8th standard.\nThe applicant should have a valid Aadhaar card.\n﻿\n\nExclusions",
+   "raw_benefit_text": "Interest-Free Loans: Women entrepreneurs can avail of interest-free loans of up to ₹1 lakh to start or expand their businesses. The loans are provided without any collateral security.\nSubsidy: The government also provides a subsidy of 6% per annum to women entrepreneurs who repay their loans on time.\nNo Processing Fee: The scheme does not charge any processing fee for the loan application.\nRepayment Period: The repayment period for the loan is up to 5 years, giving entrepreneurs sufficient time to repay the loan.\nSkill Development: The scheme provides training and skill development programs to",
+   "gold_verified": true
+  },
+  {
+   "id": "dr-ambedkar-medhavi-chattar-sansodhit-yojna",
+   "name": {
+    "en": "Dr. Ambedkar Medhavi Chattar Sansodhit Yojna"
+   },
+   "category": "training",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "For Students of Backward Classes, Scheduled Castes, Nomadic, DNTs, Semi-Nomadic, Vimukt Jati, and Tapriwas Jaati, scholarship ranging from ₹8000/- to 12000/- is awarded for Metric/10th,10+ and Graduation.\nFor Students of Backward Classes Block 'A', scholarship of amount ₹8000 is awarded for metric qualified students.\nFor Students of Backward Classes Block 'B', scholarship of amount ₹8000 is awarded for metric qualified students.\nFor Meritorious students of other social classes to be given scholarship at par with Students of Backward Classes Block 'B', scholarship of amount ₹8000 is awarded for",
+   "eligibility": [
+    {
+     "field": "social_category",
+     "op": "in",
+     "value": [
+      "SC",
+      "OBC"
+     ],
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/amcsy",
+   "source_url": "https://www.myscheme.gov.in/schemes/amcsy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "For Students of Backward Classes, Scheduled Castes, Nomadic, DNTs, Semi-Nomadic, Vimukt Jati, and Tapriwas Jaati - matric-(Urban 70%) (Rural 60%).,10+2-(Urban 75%) (Rural 70%) , Graduation-Urban 65%) (Rural 60%)\nFor Students of Backward Classes Block 'A' -Metric-(Urban 70%) (Rural 60%)\nFor Students of Backward Classes Block 'B'- Metric-(Urban 80%) (Rural 75%)\nFor Meritorious students of other social classes to be given scholarship at par with Students of Backward Classes Block 'B' - Metric-(Urban 80%) (Rural 75%)",
+   "raw_benefit_text": "For Students of Backward Classes, Scheduled Castes, Nomadic, DNTs, Semi-Nomadic, Vimukt Jati, and Tapriwas Jaati, scholarship ranging from ₹8000/- to 12000/- is awarded for Metric/10th,10+ and Graduation.\nFor Students of Backward Classes Block 'A', scholarship of amount ₹8000 is awarded for metric qualified students.\nFor Students of Backward Classes Block 'B', scholarship of amount ₹8000 is awarded for metric qualified students.\nFor Meritorious students of other social classes to be given scholarship at par with Students of Backward Classes Block 'B', scholarship of amount ₹8000 is awarded for",
+   "gold_verified": true
+  },
+  {
+   "id": "chikitsa-pratipoorti-yojana",
+   "name": {
+    "en": "Chikitsa Pratipoorti Yojana"
+   },
+   "category": "insurance",
+   "level": "state",
+   "states": [
+    "JHARKHAND"
+   ],
+   "benefit_text": "The scheme provides financial assistance to the Registered Workers for the treatment of serious illnesses such as cancer, heart disease (including surgery), kidney disease (including surgery), incurable mental disease (including surgery), AIDS, total hip replacement, spinal surgery, major vascular disease, bone marrow transplant, liver transplant, hepatoma, advanced cirrhosis of the liver, retinal detachment, proliferative diabetic retinopathy, reflux disease, reflux disease.\nThe scheme's benefits are applicable once per disease per beneficiary.\n﻿\n\nNOTE: The benefits under the scheme will be p",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "JHARKHAND",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/cpy",
+   "source_url": "https://www.myscheme.gov.in/schemes/cpy",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a domicile in the state of Jharkhand.\nThe applicant should be a Worker registered with the 'Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)'.\nThe applicant should be 18 years or above in age.\nThe applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\nThe scheme's benefits are applicable once per disease per beneficiary.\nThe applicant should be suffering from one of the following serious illnesses: Cancer, heart disease (including surgery), kidney disease (including surgery), incurable mental disease (including surgery), AIDS, total hip replacement, spinal surgery, major vascular disease, bone marrow transplant, liver transplant, hepatoma, advanced cirrhosis of the liver, retinal detachment, proliferative diabetic retinopathy, reflux disease, reflux disease.\n﻿\n\nNOTE: The list of diseases and the maximum limit of medical expenditure and modifications/modifications made in the list of listed hospitals by the Department of Health, Medical, Education and Family Welfare from time to time and the modifications/modifications made in the list of listed hospitals will be considered applicable for the purpose of this scheme.\n﻿\n\nApplication Process\nOnline\nRegistration:\nStep 1: Visit the Official website of Comprehensive Labour Management System for Factory Establishment / Worker Registration / Inspection / Management & Grievance Redressal; Department of Labour, Employment, Training & Skill Development; Govt. of Jharkhand.\nStep 2: At the top right corner, click \"Login\". On the pop-up screen, click \"Register Here\".\nStep 3: On the next page, a Registration Form will appear. Provide the following mandatory details: First Name, Last Name, Email, and Mobile. Create a Username and a Password. Confirm the Password. Fill in the Captcha Code. Click \"Register\". Your Mobile Number and Email ID will be verified via One Time Password (OTP). Upon successful verification of the OTP, your registration will be successful. The Login Credentials will be sent to your registered Email ID and Mobile Number.\n﻿\n\nApplication:\nStep 1: Visit the Official website of Comprehensive Labour Management System for Factory Establishment / Worker Registration / Inspection / Management & Grievance Redressal; Department of Labour, Employment, Training & Skill Development; Govt. of Jharkhand.\nStep 2: At the top right corner, click \"Login\". Fill in your Username and Password. Click \"Login\".\nStep 3: In the ribbon, click \"Services > BOC Scheme Benefit > Application Form. On the next page, the \"Scheme Benefit Form\" (Application Form) will open. \na) In the \"Basic Details\" section, fill in the mandatory fields (fields ending with a red asterisk mark): BOC Registration Number, Applicant's Name, Applicant's Father's Name / Husband's Name, Applicant's Date of Birth, Applicant's Aadhaar Number, District, Sex.\nb) In the \"Select Scheme\" section, select the scheme from the list that you wish to apply for.\nc) In the \"Upload Section\", upload the mandatory documents (those ending with a red asterisk mark) in the specified file size and file type.\nStep 4: Finally, click on \"Submit Request\" to submit your application. On the next page, your \"Application ID\" will be displayed, confirming the successful submission of the application. Please note down this Application ID for future reference. The Application ID will also be sent to your registered Email ID.\n﻿\n\nCheck Application Status: \nStep 1: Once submitted, the application goes for 3-level approval: Clerk > Labour Superintendent > DLC.\nStep 2: Go to Services > BOC Scheme Benefit > Application Status.\nStep 3: On the next page, fill in your Application ID, and click \"Search\". The status of your application will be displayed in a tabular format: Application ID, Applicant Name, Scheme Applied, Application Status, Remarks, Date, and Time. \nStep 4: Once the DLC approves the application, the \"Application Status\" changes to \"Approved\". The Applicant can take print of this page by clicking \"PRINT\" and submit the same at the Labour Office to avail of the scheme benefit.",
+   "raw_benefit_text": "The scheme provides financial assistance to the Registered Workers for the treatment of serious illnesses such as cancer, heart disease (including surgery), kidney disease (including surgery), incurable mental disease (including surgery), AIDS, total hip replacement, spinal surgery, major vascular disease, bone marrow transplant, liver transplant, hepatoma, advanced cirrhosis of the liver, retinal detachment, proliferative diabetic retinopathy, reflux disease, reflux disease.\nThe scheme's benefits are applicable once per disease per beneficiary.\n﻿\n\nNOTE: The benefits under the scheme will be p",
+   "gold_verified": true
+  },
+  {
+   "id": "kanyashree-prakalpa",
+   "name": {
+    "en": "Kanyashree Prakalpa"
+   },
+   "category": "training",
+   "level": "state",
+   "states": [
+    "WEST_BENGAL"
+   ],
+   "benefit_text": "Kanyashree Prakalpa offers two types of benefits:\nAnnual Scholarship (K1): A cash benefit of ₹1,000/- is paid annually to the girls in the age group 13 to 18 years (studying in Class VIII equivalent or above for every year that they remain in education, provided they are unmarried at the time.\nOne-Time Grant (K2): A grant of ₹25,000/- is paid after a girl turns 18, provided that she was engaged in an academic or occupational pursuit and was unmarried.\n﻿",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "WEST_BENGAL",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 120000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 13,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 19,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/wbkanyashree",
+   "source_url": "https://www.myscheme.gov.in/schemes/wbkanyashree",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a resident of West Bengal.\nThe applicant should be enrolled and regularly attending an educational institution.\nThe applicant should be unmarried.\nThe applicant should be from a family where the total income is not more than ₹1,20,000/- per year.\nThe applicant for the Annual Scholarship (K1) should be between the ages of 13 and 18 years.\nThe applicant for the One-Time Grant (K2) should be between the ages of 18 and 19 years.\nThe applicant should have a bank account opened in their own name, and the name on the application form must match the name on the bank account.\nThe educational institution that the applicant is studying in must be registered in West Bengal and recognized by the government.\n﻿\n\nEducational Institution Type Eligibility: The applicant will be eligible for Kanyashree's Annual Scholarship or the One-Time Grant if they are studying in any of the following:\nIn Class VIII or above in a school, madrassah, or equivalent open school course.\nIn a college or an equivalent open university course.\nA Vocational Training Centre, Technical Training Centre, or Industrial Training Centre.\nGirls enrolled in Sports Institutes may apply for the One-Time Grant; however, they cannot apply for the Annual Scholarship.\nRelaxations: Girls who are specially-abled (with a disability of 40% or more), or are living in a Home registered under the Juvenile Justice Act, 2000, or have lost both parents, may apply for Kanyashree even if their family's income is more than ₹1,20,000/- per year.\n﻿",
+   "raw_benefit_text": "Kanyashree Prakalpa offers two types of benefits:\nAnnual Scholarship (K1): A cash benefit of ₹1,000/- is paid annually to the girls in the age group 13 to 18 years (studying in Class VIII equivalent or above for every year that they remain in education, provided they are unmarried at the time.\nOne-Time Grant (K2): A grant of ₹25,000/- is paid after a girl turns 18, provided that she was engaged in an academic or occupational pursuit and was unmarried.\n﻿",
+   "gold_verified": true
+  },
+  {
+   "id": "shrama-shakthi-scheme",
+   "name": {
+    "en": "Shrama Shakthi Scheme"
+   },
+   "category": "subsidy_input",
+   "level": "central",
+   "states": [
+    "ALL"
+   ],
+   "benefit_text": "Under this scheme, a loan of ₹50,000 will be given to persons belonging to religious minority communities.\nUnder this scheme, religious minority community entrepreneurs will be trained in artistic and technical skills.\n﻿\n\n﻿",
+   "eligibility": [
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 18,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 55,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 350000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "social_category",
+     "op": "in",
+     "value": [
+      "MINORITY"
+     ],
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_govt_employee",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    },
+    {
+     "field": "is_loan_defaulter",
+     "op": "eq",
+     "value": false,
+     "negated": true,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/sss",
+   "source_url": "https://www.myscheme.gov.in/schemes/sss",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The age limit of the applicant should be between 18 and 55 years.\nThe applicant must be a permanent resident of the State.\nApplicants must belong to State Religious Minority Community.\nFamily income from all sources should be within ₹3.50 lakh per annum.\nAn applicant or his/her family members should not have availed benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years.\n﻿\n\n﻿",
+   "raw_benefit_text": "Under this scheme, a loan of ₹50,000 will be given to persons belonging to religious minority communities.\nUnder this scheme, religious minority community entrepreneurs will be trained in artistic and technical skills.\n﻿\n\n﻿",
+   "gold_verified": true
+  },
+  {
+   "id": "gatidhara-scheme",
+   "name": {
+    "en": "Gatidhara Scheme"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "WEST_BENGAL"
+   ],
+   "benefit_text": "Under the scheme, the subsidy @ 30% of the ex-showroom price of the vehicle subject to a maximum of ₹1,00,000/- will be provided to the beneficiary for purchasing any commercial vehicle.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "WEST_BENGAL",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "gte",
+     "value": 25,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "age",
+     "op": "lte",
+     "value": 45,
+     "unit": "years",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "one_per_family",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/gs-west-bengal",
+   "source_url": "https://www.myscheme.gov.in/schemes/gs-west-bengal",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a permanent resident of West Bengal.\nThe applicant should be enrolled in the Employment Bank of Labour Department, GOWB.\nThe age of the applicant should be between 25 years to 45 years (Relaxation 5 years for SC/ST & 3 years for OBC).\nThe family income of the applicant should be less than ₹25000/- per month.\nMore than one member of the same family is not eligible.",
+   "raw_benefit_text": "Under the scheme, the subsidy @ 30% of the ex-showroom price of the vehicle subject to a maximum of ₹1,00,000/- will be provided to the beneficiary for purchasing any commercial vehicle.",
+   "gold_verified": true
+  },
+  {
+   "id": "jeevanam-self-employment-scheme-to-dependents-of-crime-victi",
+   "name": {
+    "en": "Jeevanam Self-Employment Scheme To Dependents Of Crime Victims"
+   },
+   "category": "market_access",
+   "level": "state",
+   "states": [
+    "KERALA"
+   ],
+   "benefit_text": "Under the scheme, financial assistance of ₹20,000/- will be provided as one-time assistance to the eligible beneficiary.\nNote: The amount will be transferred to the respective applicant's bank account.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "KERALA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "annual_income",
+     "op": "lte",
+     "value": 100000,
+     "unit": "INR",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/js-esdcv",
+   "source_url": "https://www.myscheme.gov.in/schemes/js-esdcv",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a native and resident of Kerala State.\nThe applicant must be either the person who has been seriously injured in a crime or must be a dependent - Wife/Husband/Unmarried son or daughter of the victim of the crime.\nThe annual income of the family should not exceed ₹1,00,000/-.\nThe applicant should have applied within 5 years of the crime.\nNote: The beneficiary selected for the grant-in-aid is required to execute an agreement with the Department of social justice on a stamp paper of ₹200/- to meet the above criteria.",
+   "raw_benefit_text": "Under the scheme, financial assistance of ₹20,000/- will be provided as one-time assistance to the eligible beneficiary.\nNote: The amount will be transferred to the respective applicant's bank account.",
+   "gold_verified": true
+  },
+  {
+   "id": "financial-assistance-to-ex-convicts",
+   "name": {
+    "en": "Financial Assistance To Ex-Convicts"
+   },
+   "category": "subsidy_input",
+   "level": "state",
+   "states": [
+    "KERALA"
+   ],
+   "benefit_text": "Under the scheme, the maximum amount of financial assistance is ₹15,000/- per person will be provided to the eligible beneficiary as one-time assistance.",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "KERALA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "is_bpl",
+     "op": "eq",
+     "value": true,
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/fae-c",
+   "source_url": "https://www.myscheme.gov.in/schemes/fae-c",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be a native and resident of Kerala State.\nThe applicant should be Ex-Convict (released from jail from poor economic conditions).\nThe applicant should belong to Below Poverty Line (BPL) category.",
+   "raw_benefit_text": "Under the scheme, the maximum amount of financial assistance is ₹15,000/- per person will be provided to the eligible beneficiary as one-time assistance.",
+   "gold_verified": true
+  },
+  {
+   "id": "goa-technical-vocational-training-to-sex-workers-and-sexuall",
+   "name": {
+    "en": "Goa (Technical/ Vocational Training To Sex Workers And Sexually Abused Women) Scheme, 2013 (PRABHAT)"
+   },
+   "category": "training",
+   "level": "state",
+   "states": [
+    "GOA"
+   ],
+   "benefit_text": "(For availing of the benefit under this scheme the victim has to reside in Goa)\n﻿\n\nFinancial Assistance\nThe beneficiary (excluding victims housed in Protective Home) will be provided with a stipend of ₹ 2,500/- per month for a period of three months or till she joins a livelihood programme, whichever is earlier.\n﻿\n\nTechnical/Vocational Training\nBased on their literacy, skills, interest, etc, the Mentor/Probation Officer will help the beneficiary to join a technical/vocational training programme of the Government or Non-Government institutes, emphasizing on the training programmes which has opp",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "GOA",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/gtvtswsawwws",
+   "source_url": "https://www.myscheme.gov.in/schemes/gtvtswsawwws",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant should be the Women and Children who are victims of Commercial Sexual Exploitation.\nThe applicant should be either residing in Goa or be a native of Goa.\nNOTE 1: The place of commercial sexual exploitation is not a criterion for eligibility (women and girls from Goa being commercially sexually exploited outside Goa also qualify).",
+   "raw_benefit_text": "(For availing of the benefit under this scheme the victim has to reside in Goa)\n﻿\n\nFinancial Assistance\nThe beneficiary (excluding victims housed in Protective Home) will be provided with a stipend of ₹ 2,500/- per month for a period of three months or till she joins a livelihood programme, whichever is earlier.\n﻿\n\nTechnical/Vocational Training\nBased on their literacy, skills, interest, etc, the Mentor/Probation Officer will help the beneficiary to join a technical/vocational training programme of the Government or Non-Government institutes, emphasizing on the training programmes which has opp",
+   "gold_verified": true
+  },
+  {
+   "id": "mahila-bakri-palan",
+   "name": {
+    "en": "Mahila Bakri Palan"
+   },
+   "category": "allied_activity",
+   "level": "state",
+   "states": [
+    "UTTARAKHAND"
+   ],
+   "benefit_text": "Under this scheme, one unit of goats (3 females and 1 male) aged 12 to 18 months is provided to eligible women. The entire cost of the scheme, ₹35,000, is borne by the State Government.\n﻿",
+   "eligibility": [
+    {
+     "field": "state",
+     "op": "eq",
+     "value": "UTTARAKHAND",
+     "negated": false,
+     "mandatory": true
+    },
+    {
+     "field": "gender",
+     "op": "eq",
+     "value": "female",
+     "negated": false,
+     "mandatory": true
+    }
+   ],
+   "documents": [],
+   "apply_url": "https://www.myscheme.gov.in/schemes/mbp",
+   "source_url": "https://www.myscheme.gov.in/schemes/mbp",
+   "last_verified": "2026-08-22",
+   "raw_eligibility_text": "The applicant must be a resident of Uttarakhand.\nThe applicant must be a woman.\nThe applicant must be from one of the following categories:\nAbandoned\nWidow\nDestitute\nSingle woman\nDisaster-affected woman\n﻿",
+   "raw_benefit_text": "Under this scheme, one unit of goats (3 females and 1 male) aged 12 to 18 months is provided to eligible women. The entire cost of the scheme, ₹35,000, is borne by the State Government.\n﻿",
+   "gold_verified": true
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+# Runtime dependencies for the deployed app ONLY.
+#
+# Streamlit Cloud installs this file. The matcher needs nothing beyond these
+# two -- scraping, PDF parsing and browser automation are build-time concerns
+# and live in requirements-dev.txt. Shipping them here would mean the deploy
+# can fail on a dependency the running app never imports.
+streamlit>=1.40
+pydantic>=2.9

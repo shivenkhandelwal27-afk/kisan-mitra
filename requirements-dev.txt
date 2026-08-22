@@ -1,0 +1,13 @@
+# Everything needed to REBUILD the corpus and run the evaluation locally.
+# Not required to run the app.
+-r requirements.txt
+
+requests>=2.32          # scraping
+beautifulsoup4>=4.12
+lxml>=5.0
+pypdf>=5.0              # guideline PDF text extraction
+playwright>=1.40        # renders myscheme.gov.in (client-side app)
+pytest>=8.0
+
+# The LLM extractor talks to a LOCAL Ollama server over HTTP (no package
+# needed). Install Ollama separately and: ollama pull qwen2.5:3b

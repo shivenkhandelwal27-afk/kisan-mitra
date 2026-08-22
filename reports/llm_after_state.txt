@@ -1,0 +1,49 @@
+  ...5/82  ~92 min left
+  ...10/82  ~66 min left
+  ...15/82  ~49 min left
+  ...20/82  ~51 min left
+  ...25/82  ~42 min left
+  ...30/82  ~37 min left
+  ...35/82  ~35 min left
+  ...40/82  ~30 min left
+  ...45/82  ~24 min left
+  ...50/82  ~20 min left
+  ...55/82  ~15 min left
+  ...60/82  ~12 min left
+  ...65/82  ~8 min left
+  ...70/82  ~6 min left
+  ...75/82  ~3 min left
+  ...80/82  ~1 min left
+
+=== llm | 82 paragraphs ===
+  micro    P 0.594  R 0.543  F1 0.568   (tp=63 fp=43 fn=53)
+  negation P 1.000  R 0.692  F1 0.818   (support=13)
+  negation-flag agreement 0.905 over 63 matched conditions
+  no-rules accuracy 0.927 over 41 administrative paragraphs
+  field                             P      R     F1    n
+  state                          1.00   0.58   0.73   26
+  age                            0.55   0.46   0.50   24
+  annual_income                  0.78   0.58   0.67   12
+  gender                         0.40   0.50   0.44    8
+  is_bpl                         1.00   1.00   1.00    5
+  is_loan_defaulter              0.83   1.00   0.91    5
+  social_category                0.33   0.40   0.36    5
+  has_bank_account               0.75   0.75   0.75    4
+  is_pensioner                   0.67   0.50   0.57    4
+  one_per_family                 0.50   0.25   0.33    4
+  education_level                0.00   0.00   0.00    3
+  is_govt_employee               0.40   0.67   0.50    3
+  residence_type                 0.50   0.67   0.57    3
+  employment_status              0.00   0.00   0.00    2
+  is_differently_abled           0.00   0.00   0.00    2
+  farmer_class                   1.00   1.00   1.00    1
+  has_kcc                        0.50   1.00   0.67    1
+  land_ha                        1.00   1.00   1.00    1
+  land_ownership                 0.00   0.00   0.00    1
+  livestock                      0.00   0.00   0.00    1
+  years_farming                  1.00   1.00   1.00    1
+  crops                          0.00   0.00   0.00    0
+  existing_schemes               0.00   0.00   0.00    0
+  has_aadhaar_linked_bank        0.00   0.00   0.00    0
+  has_land_records               0.00   0.00   0.00    0
+  is_income_tax_payer            0.00   0.00   0.00    0
