@@ -1,6 +1,6 @@
 # Annotation brief — second annotator
 
-**Time needed:** ~2 hours for 50 sections.
+**Time needed:** ~25 minutes for 20 sections, plus 5 minutes of setup.
 
 ## What you are doing and why
 
@@ -20,16 +20,62 @@ Work only from the raw text in your file.
 Disagreeing is fine and useful. Where we disagree tells us our guidelines are
 ambiguous, which is something we need to know.
 
+## Setup on your laptop (5 minutes)
+
+**1. Install Python** — get 3.12 from python.org if you do not have it.
+On Windows, tick **"Add Python to PATH"** during install or nothing below
+works. Verify with `python --version`.
+
+**2. Get the project.** Either clone it:
+
+```
+git clone https://github.com/shivenkhandelwal27-afk/kisan-mitra.git
+cd kisan-mitra
+```
+
+…or download the ZIP from the GitHub page (green **Code** button →
+*Download ZIP*) and unzip it. Git is not required.
+
+**3. Install the two dependencies:**
+
+```
+pip install -r requirements.txt
+```
+
+That is `streamlit` and `pydantic` only — nothing heavy, no models to
+download, works offline afterwards.
+
+**4. Start the tool:**
+
+```
+streamlit run app/annotate.py
+```
+
+Your browser opens at `localhost:8501`. If it does not, copy the URL the
+terminal prints.
+
+**Troubleshooting**
+
+- `'python' is not recognized` → Python is not on PATH. Reinstall with the
+  PATH box ticked, or use `py` instead of `python`.
+- `'streamlit' is not recognized` → use `python -m streamlit run app/annotate.py`
+- `No module named src` → you are in the wrong folder. `cd` into `kisan-mitra`
+  (the one containing `app/` and `src/`) first.
+
 ## Files you need
 
-1. `data/gold/annotator_b.jsonl` — your worksheet, 50 sections
-2. `docs/ANNOTATION_GUIDELINES.md` — **read this first**, especially the
-   hard-cases table
+1. `data/gold/annotator_b.jsonl` — your worksheet, 20 sections
+2. `docs/ANNOTATION_GUIDELINES.md` — the reference. You do **not** need to read
+   it end to end; the tool shows the relevant rule for each section as you go.
 
 ## How to work
 
-Open the `.jsonl` file in VS Code (or any text editor). Each line is one
-section. Read the `text` field and fill in the `rules` list.
+Use the tool (`streamlit run app/annotate.py`) rather than editing the file
+by hand — it validates every rule as you add it, so you cannot produce a
+broken label, and it saves after every click.
+
+If you would rather edit the raw file: each line is one section; read the
+`text` field and fill in the `rules` list.
 
 Each line starts like this:
 
